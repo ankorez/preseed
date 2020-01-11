@@ -1,7 +1,4 @@
-- Ubuntu
-
-```bash
-#### Contents of the preconfiguration file (for stretch)
+#### Contents of the preconfiguration file (for bionic)
 ### Localization
 # Preseeding only locale sets language, country and locale.
 d-i debian-installer/locale string fr_fr
@@ -447,5 +444,3 @@ d-i finish-install/reboot_in_progress note
 # packages and run commands in the target system.
 #d-i preseed/late_command string apt-install zsh; in-target chsh -s /bin/zsh
 #d-i preseed/late_command string \ 
-
-```
